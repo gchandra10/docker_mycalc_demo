@@ -8,7 +8,7 @@ cd container
 Fork & Clone this Repo
 
 ```
-cd docker_python_mycalc_demo
+cd docker_mycalc_demo
 ```
 
 ## Build an Image
@@ -16,13 +16,13 @@ cd docker_python_mycalc_demo
 (default it uses Dockerfile, but can customized with -f parameter)
 
 ```bash
-podman build -t mycalc .
+podman build -t docker_mycalc_demo .
 ```
 
 or
 
 ```bash
-docker build -t mycalc .
+docker build -t docker_mycalc_demo .
 ```
 
 ## Run the container using the Image
